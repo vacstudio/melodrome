@@ -116,7 +116,7 @@
 								data-aspectratio="16:9" 
 								data-forcerewind="on" 
 								style="z-index: 2;">
-								<video class="" width="100%" height="100%" poster='images/videos/explore-poster.jpg' preload autoplay loop>
+								<video class="" width="100%" height="80%" poster='images/videos/explore-poster.jpg' preload autoplay loop>
 									<source src='images/videos/explore.mp4' type='video/mp4' />
 									<source src='images/videos/explore.webm' type='video/webm' />
 								</video>
@@ -124,7 +124,7 @@
 
 							<div class="tp-caption customin ltl tp-resizeme revo-slider-emphasis-text nopadding noborder"
 							data-x="360"
-							data-y="243"
+							data-y="180"
 							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 							data-speed="800"
 							data-start="0"
@@ -138,7 +138,7 @@
 							
 							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
 							data-x="457"
-							data-y="325"
+							data-y="260"
 							data-customin="x:0;y:150;z:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:200;transformOrigin:50% 0%;"
 							data-speed="800"
 							data-start="200"
@@ -251,12 +251,16 @@
 							SEMICOLON.header.darkLogo();
 						}
 					});
+					/* Mute main video */
+					$('.portfolio-item').click(function() {
+						$('video').prop('muted', true);
+					});
 				});
 			</script>
 
 		</section>
 
-		<section id="content">
+		<section id="content" style="margin-top: -20%;">
 			<div class="content-wrap" style="padding-bottom: 0;">
 				<div class="container clearfix">
 					<div class="divcenter clearfix" style="max-width: 900px;">
