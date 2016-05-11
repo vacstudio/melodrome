@@ -62,7 +62,7 @@ else
 	<b>Konu:</b> $konu <br />
     <b>Mesaj:</b> $mesaj <br /><br />
     <span style='color:#777;'>V.A.C. Studio Destek Ekibi</span>";
-	mailGonder("noreply@vacstudio.com","V.A.C. Studio Destek Ekibi","nevcanuludas@gmail.com","iletisim Formu (www.melodrome.org)",$icerik);
+	mailGonder("noreply@vacstudio.com","V.A.C. Studio Destek Ekibi","info@melodrome.org","iletisim Formu (www.melodrome.org)",$icerik);
 	$responseMessage="Mesajınız başarıyla iletilmiştir. Siteye dönmek için devam edin.";
 }
     ?>
